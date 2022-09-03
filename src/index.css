@@ -14,12 +14,17 @@ body {
 :root {
   --black: #1C1C1C;
   --dark-blue: #1F2937;
-  --green: #55F991;
+  --title: #55F991;
   --main-btn: #10B981;
   --soft-green: #ECFDF5;
   --medium-grey: #D5D4D8;
   --dark-grey: #2F3E53;
   --white: #ffffff;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--title);
 }
 
 /*# sourceMappingURL=index.css.map */

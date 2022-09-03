@@ -1,5 +1,5 @@
 import './App.css'
-import Score from "./components/HomeScore"
+import Score from "./components/Score"
 
 function App() {
 

@@ -1,0 +1,47 @@
+@mixin btn {
+  margin: 10px;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgba($color: #000000, $alpha: 0.1);
+  border: 1px solid var(--title);
+  color: var(--white);
+  border-radius: 5px;
+}
+@font-face {
+  font-family: "Cursed Timer";
+  src: url(../fonts/cursed-timer.ttf);
+}
+
+.board-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  font-size: 3.5rem;
+}
+p {
+  width: 150px;
+  margin: 10px;
+  padding: 20px;
+  background-color: var(--black);
+  color: #F94F6D;
+  font-family: "Cursed Timer", serif;
+  font-size: 5rem;
+}
+button {
+  @include btn;
+}
+.reset-btn {
+  grid-column: 1/3;
+  width: 50%;
+  margin: auto;
+  background-color: var(--title);
+}

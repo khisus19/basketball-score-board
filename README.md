@@ -1,2 +1,2 @@
-# basketball-score-board
-Basketball score board
+# basketball Scoreboard
+Basketball Scoreboard built with React, SASS and Vite.js
